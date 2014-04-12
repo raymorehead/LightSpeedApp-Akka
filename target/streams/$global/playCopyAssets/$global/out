@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/fonts/glyphicons-halflings-regular.ttf,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.ttf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/fonts/glyphicons-halflings-regular.woff,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.woff)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/fonts/Airship 27-Regular.ttf,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/fonts/Airship 27-Regular.ttf)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/fonts/glyphicons-halflings-regular.svg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.svg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/fonts/glyphicons-halflings-regular.eot,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.eot)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser022.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser022.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/favicon.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/cory.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/cory.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/casey.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/casey.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/p03.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/p03.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/pic2.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/pic2.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/bryan.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/bryan.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/joey.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/joey.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/bolt2.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/bolt2.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser01.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser01.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser02.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser02.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/chelsea.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/chelsea.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/bolt.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/bolt.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ipad-hand.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ipad-hand.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/pic3.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/pic3.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/pic1.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/pic1.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ray.jpg,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ray.jpg)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser032.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser032.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/p02.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/p02.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser03.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser03.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/computers.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/computers.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/p01.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/p01.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/img/ser011.png,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/img/ser011.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/javascripts/bootstrap.min.js,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/javascripts/bootstrap.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/javascripts/jquery-1.9.0.min.js,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/style/main.css,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/style/main.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/raymond/scala/LightSpeedApp-Akka/public/style/bootstrap.css,/home/raymond/scala/LightSpeedApp-Akka/target/scala-2.10/classes/public/style/bootstrap.css)[0m

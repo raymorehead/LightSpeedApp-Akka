@@ -24,7 +24,7 @@ object Application extends Controller {
   def userGet(key : String) = Action.async { 
     val result = "The answer is " + key
     val value = myActor ? Key(key)
-    value.map(v =>   	Ok( views.html.ajax_result(v.toString)))
+    value.map(v =>   	Ok( views.html.ajax_result(result + "  value: "+ v.toString)))
     
   }
    
