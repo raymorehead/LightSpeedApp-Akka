@@ -6,6 +6,8 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 
 resolvers += "Sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 
+addSbtPlugin("com.typesafe.akka" % "akka-sbt-plugin" % "2.2.1")
+
 addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.7.0-SNAPSHOT")
 
 // Use the Play sbt plugin for Play projects

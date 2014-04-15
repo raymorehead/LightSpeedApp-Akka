@@ -1,92 +1,12 @@
-2014-04-14 17:27:49,999 - [INFO] - from play in pool-4-thread-4 
+2014-04-15 15:11:15,414 - [INFO] - from play in pool-4-thread-4 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-04-14 17:28:00,688 - [INFO] - from play in play-internal-execution-context-1 
+2014-04-15 15:11:21,485 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2014-04-14 17:28:01,012 - [INFO] - from play in New I/O worker #1 
+2014-04-15 15:11:22,065 - [INFO] - from play in New I/O worker #1 
 Starting application default Akka system.
 
-2014-04-14 17:28:58,252 - [INFO] - from play in play-internal-execution-context-2 
-Shutdown application default Akka system.
-
-2014-04-14 17:28:58,401 - [INFO] - from play in play-internal-execution-context-2 
-Application started (Dev)
-
-2014-04-14 17:28:58,447 - [INFO] - from play in New I/O worker #5 
-Starting application default Akka system.
-
-2014-04-14 17:30:39,398 - [INFO] - from play in play-internal-execution-context-3 
-Shutdown application default Akka system.
-
-2014-04-14 17:30:39,496 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2014-04-14 17:30:39,535 - [INFO] - from play in New I/O worker #6 
-Starting application default Akka system.
-
-2014-04-14 17:34:19,993 - [INFO] - from play in play-internal-execution-context-3 
-Shutdown application default Akka system.
-
-2014-04-14 17:34:20,102 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2014-04-14 17:34:20,159 - [INFO] - from play in New I/O worker #7 
-Starting application default Akka system.
-
-2014-04-14 17:35:38,390 - [INFO] - from play in play-internal-execution-context-3 
-Shutdown application default Akka system.
-
-2014-04-14 17:35:38,466 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2014-04-14 17:35:38,489 - [INFO] - from play in New I/O worker #1 
-Starting application default Akka system.
-
-2014-04-14 17:36:07,868 - [INFO] - from play in play-internal-execution-context-3 
-Shutdown application default Akka system.
-
-2014-04-14 17:36:07,950 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2014-04-14 17:36:07,981 - [INFO] - from play in New I/O worker #8 
-Starting application default Akka system.
-
-2014-04-14 17:43:27,909 - [ERROR] - from application in New I/O worker #2 
-
-
-! @6hpo183fk - Internal server error, for (POST) [/database] ->
-
-play.PlayExceptions$CompilationException: Compilation error[')' expected but string literal found.]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.3.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.10.3.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.10.3.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10-2.2.2.jar:2.2.2]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10-2.2.2.jar:2.2.2]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.10.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.10.3.jar:na]
-
-2014-04-14 17:49:03,001 - [INFO] - from play in play-internal-execution-context-3 
-Shutdown application default Akka system.
-
-2014-04-14 17:49:03,073 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2014-04-14 17:49:03,092 - [INFO] - from play in New I/O worker #5 
-Starting application default Akka system.
-
-2014-04-14 17:54:33,257 - [INFO] - from play in pool-4-thread-4 
+2014-04-15 15:11:35,204 - [INFO] - from play in pool-4-thread-4 
 Shutdown application default Akka system.
 

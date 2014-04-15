@@ -21,8 +21,6 @@ object main extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,F
 
 Seq[Any](format.raw/*1.30*/("""
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +31,7 @@ Seq[Any](format.raw/*1.30*/("""
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <title>"""),_display_(Seq[Any](/*15.13*/title)),format.raw/*15.18*/("""</title>
+    <title>"""),_display_(Seq[Any](/*13.13*/title)),format.raw/*13.18*/("""</title>
 
     <!-- Bootstrap core CSS --> 
     <link href="assets/style/bootstrap.css" rel="stylesheet">
@@ -85,7 +83,7 @@ Seq[Any](format.raw/*1.30*/("""
 						<h3>A distributed Key-Value Store powered by the Symas Lightning DB & Akka Clusters</h3>
 					<h4>Get started using LightSpeed typing the command below.</h4>
 		
-					"""),_display_(Seq[Any](/*67.7*/content)),format.raw/*67.14*/("""
+					"""),_display_(Seq[Any](/*65.7*/content)),format.raw/*65.14*/("""
 				<div class="col-lg-6">
 					<img class="img-responsive" src="assets/img/computers.png" alt="">
 				</div><!-- /col-lg-6 -->
@@ -254,11 +252,11 @@ Seq[Any](format.raw/*1.30*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Apr 14 17:36:06 EDT 2014
+                    DATE: Tue Apr 15 12:58:58 EDT 2014
                     SOURCE: /home/bryan/Projects/LightSpeedApp-Akka/app/views/main.scala.html
-                    HASH: e0c06450ec191e62906953c7ac72f576840c7350
-                    MATRIX: 558->1|680->29|1173->486|1200->491|3376->2632|3405->2639
-                    LINES: 19->1|22->1|36->15|36->15|88->67|88->67
+                    HASH: 63ef7e860f43b199e9e6ba0d1aa9023a7cf09682
+                    MATRIX: 558->1|680->29|1171->484|1198->489|3374->2630|3403->2637
+                    LINES: 19->1|22->1|34->13|34->13|86->65|86->65
                     -- GENERATED --
                 */
             

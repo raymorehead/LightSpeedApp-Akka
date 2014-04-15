@@ -4,7 +4,7 @@
 		module="lightspeedapp-akka-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140414152618"
+		publication="20140415141631"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
@@ -36,6 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.2" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.2" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.0" conf="provided->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-sbt-plugin" rev="2.2.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.7.0-SNAPSHOT" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.2.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.6.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>

@@ -13,6 +13,8 @@ import play.api.libs.concurrent.Akka
 import play.api.mvc._
 import play.api.libs.concurrent.Execution.Implicits._
 
+import scala.language.postfixOps
+
 object Application extends Controller {
   
   val myActor = Akka.system.actorOf(Props[MyActor], name = "myactor")
