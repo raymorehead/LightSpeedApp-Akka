@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-lg-3 subnav affix">
+        <div class="action-menu">
+            <div class="btn-group">
+                <a href="" data-toggle="dropdown">Latest <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="pull-right action-buttons">
+                <a ui-sref="workouts.new" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span></a>
+            </div>
+        </div>
+        <ul class="nav nav-pills nav-stacked">
+            <li ng-repeat="workout in workouts"><a ui-sref="workouts.detail({workoutId: workout._id})">{{ workout.name }}</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-7 col-lg-offset-3 detail affix" ui-view></div>
+</div>

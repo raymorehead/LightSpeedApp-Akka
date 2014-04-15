@@ -1,0 +1,262 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #1c2e30;
+    padding: 10px 20px 9px 20px;
+    background: #0e0e0e;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    color: whitesmoke;
+}
+
+.header .nav > li > a {
+    color: whitesmoke;
+}
+
+.header .nav > li.open > a,
+.header .nav > li > a:hover,
+.header .nav > li > a:focus {
+    background: #428bca;
+}
+
+.header .nav > li .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Custom page content */
+.content {
+    margin-top: 60px;
+}
+
+/* container reset */
+.container {
+    width: auto;
+    padding: 0;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main dashboard message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.dashboard {
+    margin:0;
+}
+
+/* dashboard login */
+.dashboardLogin {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 48px 0;
+}
+
+.dashboardLogin .jumbotron {
+    text-align: left;
+}
+
+#loginForm .input-group {
+    width: 100%;
+    margin: 32px 0;
+}
+
+#loginForm label {
+    font-size: 16px;
+}
+
+#loginForm label > input[type="checkbox"] {
+    margin-top: 16px;
+}
+
+#loginForm .checkbox {
+    display: inline-block;
+}
+
+#loginForm .btn {
+    font-size: initial;   
+}
+
+
+/* dashboard sidebar */
+.sidebar {
+    position: fixed;
+    background: #ecf0f1;
+    border-right: 1px solid #d7d6d7;
+    padding: 0;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar .nav > li {
+    margin-top: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sidebar .nav > li.active {
+    border-bottom: 1px solid #428bca;
+}
+
+.sidebar .nav > li > a {
+    border-radius: 0;
+    padding: 16px 32px;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+    background: #428bca;
+    color: white;
+}
+
+.sidebar .nav > li > a > span {
+    margin-right: 10px;
+}
+
+
+/* dashboard subnav */
+.subnav {
+    background: #fdfdfd;
+    border-right: 1px solid #ededed;
+    padding: 0;
+    top: 80px;
+    bottom: 0;
+}
+
+.subnav .nav > li > a {
+    padding: 12px 24px;
+    border-radius: 0;
+}
+.subnav .nav > li > a:hover {
+    background: #cedbfc;
+}
+
+.subnav .action-menu {
+    background: #f5f5f5;
+    padding: 24px;
+}
+
+.action-menu  a {
+    color: #444;
+    border-bottom: 1px solid #ededed;
+}
+
+.action-menu a:hover,
+.action-menu a:focus {
+    color: #666;
+    text-decoration: none;
+}
+
+.action-menu .action-buttons {
+    font-size: 18px;
+}
+
+/* dashboard main content */
+.main {}
+
+.main .adjust {
+    padding: 12px 24px;
+}
+
+.main .detail {
+    top: 80px;
+    bottom: 0;
+    overflow-y: scroll;
+    padding: 15px 15px;   
+}
+
+.exerciseAction,
+.workoutAction,
+.clientAction,
+.affiliateAction,
+.promoAction,
+.programAction {
+    padding: 7px 0 16px 0;
+}
+.exerciseAction a,
+.workoutAction a,
+.clientAction a,
+.affiliateAction a,
+.promoAction a,
+.programAction a {
+    cursor: pointer;
+}
+.exerciseAction a > span,
+.workoutAction a > span,
+.clientAction a > span,
+.affiliateAction a > span,
+.promoAction a > span,
+.programAction a > span {
+    font-size: 24px;   
+}
+
+.exerciseName .form-control,
+.exerciseDesc .form-control {
+    border-radius: 0px;
+    border: 0px solid black;
+}
+
+.exerciseName,
+.exerciseDesc {
+    margin-bottom: 24px;
+}
+
+.workoutDifficulty {
+    width: 140px;
+}
+
+.workoutName,
+.workoutNotes,
+.workoutDifficulty {
+    margin-bottom: 24px;
+}
+.workoutName .form-control,
+.workoutDifficulty .form-control,
+.workoutNotes .form-control {
+    border-radius: 0px;
+    border: 0px solid black;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+    
+    .dashboardLogin {
+        width: 530px;
+    }
+}

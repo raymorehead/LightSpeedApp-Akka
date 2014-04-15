@@ -1,0 +1,16 @@
+<div class="exercise">
+    <form ng-submit="new()" role="form">
+        <div class="exerciseAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+        </div>
+        <div class="exerciseName">
+            <input data-ng-model="exercise.name" placeholder="Exercise Name" type="text" class="form-control input-lg" id="exerciseName" required>
+        </div>
+        <div class="exerciseDesc">
+            <textarea data-ng-model="exercise.description"  placeholder="Exercise description"class="form-control" id="exerciseDesc" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>

@@ -1,0 +1,13 @@
+<div class="promo">
+    <form ng-submit="new()" role="form">
+        <div class="promoAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+        </div>
+        <div class="promoName">
+            <input data-ng-model="promo.name" placeholder="Promotion Name" type="text" class="form-control input-lg" id="promoName" required>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>

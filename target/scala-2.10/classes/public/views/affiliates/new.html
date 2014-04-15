@@ -1,0 +1,16 @@
+<div class="affiliate">
+    <form ng-submit="new()" role="form">
+        <div class="affiliateAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+        </div>
+        <div class="affiliateName">
+            <input data-ng-model="affiliate.name" placeholder="Affiliate Name" type="text" class="form-control input-lg" id="affiliateName" required>
+        </div>
+        <div class="affiliateDesc">
+            <textarea data-ng-model="affiliate.description"  placeholder="Affiliate description"class="form-control" id="affiliateDesc" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>

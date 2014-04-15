@@ -1,0 +1,17 @@
+{
+  "name": "nomadic",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.13",
+    "bootstrap": "~3.0.3",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "angular": "~1.2.11",
+    "angular-cookies": "~1.2.11",
+    "angular-route": "~1.2.11",
+    "underscore": "~1.5.2",
+    "angular-resource": "~1.2.13",
+    "angular-ui-router": "0.2.8-bowratic-tedium"
+  },
+  "devDependencies": {}
+}

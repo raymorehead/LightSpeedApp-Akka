@@ -21,17 +21,17 @@ object Application extends Controller {
     Ok( views.html.index("Message" ))
   }
 
-  def userGet(key : String) = Action.async { 
+  def dashboard = Action {
+    Ok( views.html.dashboard() )
+  }
+
+  def userGet(key : String) = Action.async {
     val result = "The answer is " + key
     val value = myActor ? Key(key)
     value.map(v =>   	Ok( views.html.ajax_result(result + "  value: "+ v.toString)))
-    
+
   }
-   
 
-
-  
-      
   def javascriptRoutes = Action { implicit request ⇒
     import routes.javascript._
     Ok(

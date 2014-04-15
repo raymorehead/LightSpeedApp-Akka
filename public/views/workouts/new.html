@@ -1,0 +1,22 @@
+<div class="workout">
+    <form ng-submit="new()" role="form">
+        <div class="workoutAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+        </div>
+        <div class="workoutName">
+            <input data-ng-model="workout.name" placeholder="Workout Name" type="text" class="form-control input-lg" id="workoutName" required>
+        </div>
+        <div class="workoutDifficulty">
+            <label for="workoutDifficulty">Workout Difficulty: </label>
+            <select class="form-control" data-ng-model="workout.difficulty" required>
+                <option ng-repeat="level in levels">{{ level }}</option>
+            </select>
+        </div>
+        <div class="workoutNotes">
+            <textarea data-ng-model="workout.notes"  placeholder="Workout Notes"class="form-control" id="workoutNotes" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>

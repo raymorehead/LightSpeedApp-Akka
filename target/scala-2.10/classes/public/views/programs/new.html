@@ -1,0 +1,13 @@
+<div class="program">
+    <form ng-submit="new()" role="form">
+        <div class="programAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+        </div>
+        <div class="programName">
+            <input data-ng-model="program.name" placeholder="Program Name" type="text" class="form-control input-lg" id="programName" required>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>

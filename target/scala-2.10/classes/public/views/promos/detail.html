@@ -1,0 +1,16 @@
+<div class="promo">
+    <form ng-submit="update()" role="form">
+        <div class="promoAction">
+            <a ng-click="cancel()">
+                <span class="glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="bottom" title="Cancel"></span>
+            </a>
+            <a ng-click="remove()" class="pull-right">
+                <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="bottom" title="Delete"></span>
+            </a>
+        </div>
+        <div class="promoName">
+            <input data-ng-model="promo.name" type="text" class="form-control input-lg" id="promoName" required>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+</div>
