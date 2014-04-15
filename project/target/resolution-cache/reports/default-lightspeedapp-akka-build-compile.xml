@@ -9,7 +9,7 @@
 		extra-scalaVersion="2.10"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140415141631"/>
+		date="20140415161111"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="sbt-plugin">
 			<revision name="2.2.2" status="release" pubdate="20140228151229" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
@@ -435,11 +435,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-sbt-plugin">
-			<revision name="2.2.1" status="release" pubdate="20130904091416" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="true" searched="true" default="false" conf="default(compile), compile" position="0">
-				<metadata-artifact status="successful" details="" size="1443" time="741" location="/home/bryan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/ivy-2.2.1.xml" searched="true" original-local-location="/home/bryan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.1/ivys/ivy.xml"/>
+			<revision name="2.2.1" status="release" pubdate="20130904091416" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="no" details="" size="1443" time="0" location="/home/bryan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.1/ivys/ivy.xml"/>
 				<caller organisation="default" name="lightspeedapp-akka-build" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="akka-sbt-plugin" type="jar" ext="jar" status="successful" details="" size="60833" time="1234" location="/home/bryan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/jars/akka-sbt-plugin-2.2.1.jar">
+					<artifact name="akka-sbt-plugin" type="jar" ext="jar" status="no" details="" size="60833" time="0" location="/home/bryan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/jars/akka-sbt-plugin-2.2.1.jar">
 						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.1/jars/akka-sbt-plugin.jar"/>
 					</artifact>
 				</artifacts>

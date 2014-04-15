@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32c0023f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac726a6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -128,19 +128,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-kernel_2.10;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-kernel_2.10;2.2.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/com.typesafe.akka/akka-kernel_2.10/2.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom (2.2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.pom(pom.original) (374ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/com.typesafe.akka/akka-kernel_2.10/2.2.1/jars/akka-kernel_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-kernel_2.10;2.2.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-kernel_2.10;2.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-kernel_2.10;2.2.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-kernel_2.10;2.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-kernel_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)][0m
@@ -184,6 +174,182 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.amazonaws#aws-java-sdk;1.4.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.amazonaws#aws-java-sdk;1.4.2.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/com.amazonaws/aws-java-sdk/1.4.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.amazonaws#aws-java-sdk;1.4.2.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.amazonaws#aws-java-sdk;1.4.2.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom (1.4.2.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk;1.4.2.1!aws-java-sdk.pom(pom.original) (433ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/com.amazonaws/aws-java-sdk/1.4.2.1/jars/aws-java-sdk.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.amazonaws#aws-java-sdk;1.4.2.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpclient;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpclient;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.pom(pom.original) (203ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-client;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcomponents-client;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.1!httpcomponents-client.pom(pom.original) (222ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;4.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;4.1.1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;4.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#project;4.1.1[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcore;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcore;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.pom(pom.original) (207ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-core;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.apache.httpcomponents#httpcomponents-core;4.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom (4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.1!httpcomponents-core.pom(pom.original) (184ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;4.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;4.1.1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;4.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#project;4.1.1[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.3[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.8.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.8.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.8.9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-core-asl;1.8.9[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.jackson#jackson-core-asl;1.8.9[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom (1.8.9)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.8.9!jackson-core-asl.pom(pom.original) (213ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.8.9/jars/jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-core-asl;1.8.9 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.8.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.8.9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;1.8.9[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.jackson#jackson-mapper-asl;1.8.9[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom (1.8.9)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.8.9!jackson-mapper-asl.pom(pom.original) (210ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/bryan/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.8.9/jars/jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-mapper-asl;1.8.9 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc_2.10;2.2.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc_2.10;2.2.2 {compile=[default(compile)]}[0m
@@ -477,11 +643,6 @@
 [0m[[0mdebug[0m] [0m	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.3[0m
-[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-core;1.2.1.2->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...[0m
@@ -493,30 +654,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1[0m
-[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1[0m
-[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -676,15 +820,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -917,6 +1057,49 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->compile][0m
@@ -1059,15 +1242,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -1225,15 +1406,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -1403,6 +1580,49 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->compile][0m
@@ -1545,15 +1765,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -1711,15 +1929,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -2950,6 +3164,49 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->compile][0m
@@ -3092,15 +3349,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -3258,15 +3513,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -3438,6 +3689,49 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->compile][0m
@@ -3580,15 +3874,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -3746,15 +4038,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -3926,6 +4214,49 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jdmk#jmxtools;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.sun.jmx#jmxri;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#aws-java-sdk;1.4.2.1->org.codehaus.jackson#jackson-mapper-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.9->org.codehaus.jackson#jackson-core-asl;1.8.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk;1.4.2.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.2 [compile->compile][0m
@@ -4068,15 +4399,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
@@ -4234,15 +4563,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->commons-codec#commons-codec;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
@@ -5264,8 +5589,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->oauth.signpost#signpost-core;1.2.1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies oauth.signpost#signpost-commonshttp4;1.2.1.2->org.apache.httpcomponents#httpclient;4.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.0.1->org.apache.httpcomponents#httpcore;4.0.1 [compile->compile(*)][0m
@@ -5599,13 +5934,14 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.2.3!akka-cluster_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/typesafe/akka/akka-kernel_2.10/2.2.1/akka-kernel_2.10-2.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.jar (387ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-kernel_2.10;2.2.1!akka-kernel_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.4.2.1/aws-java-sdk-1.4.2.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.amazonaws#aws-java-sdk;1.4.2.1!aws-java-sdk.jar (6263ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.2!play-jdbc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#anorm_2.10;2.2.2!anorm_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.2!play-cache_2.10.jar[0m
@@ -5617,6 +5953,32 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.jar (883ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/jackson-core-asl-1.8.9.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.8.9!jackson-core-asl.jar (376ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/jackson-mapper-asl-1.8.9.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.8.9!jackson-mapper-asl.jar (556ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.jar (297ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.172!h2.jar[0m
@@ -5654,10 +6016,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jsuereth#scala-arm_2.10;1.3!scala-arm_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-functional_2.10;2.2.2!play-functional_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.10;2.2.2!play-datacommons_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.6!ehcache-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.10;2.2.2!play-test_2.10.jar[0m
@@ -5721,7 +6081,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5123ms :: artifacts dl 490ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7918ms :: artifacts dl 8499ms[0m
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT compile produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT runtime produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT test produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-test.xml[0m
@@ -5735,5 +6095,5 @@
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT docs produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT pom produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for LightSpeed#lightspeedapp-akka_2.10;1.0-SNAPSHOT scala-tool produced in /home/bryan/Projects/LightSpeedApp-Akka/target/resolution-cache/reports/LightSpeed-lightspeedapp-akka_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5123ms resolve - 490ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7918ms resolve - 8499ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

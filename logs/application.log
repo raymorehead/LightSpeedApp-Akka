@@ -1,12 +1,12 @@
-2014-04-15 15:11:15,414 - [INFO] - from play in pool-4-thread-4 
+2014-04-15 16:11:38,496 - [INFO] - from play in pool-4-thread-2 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-04-15 15:11:21,485 - [INFO] - from play in play-internal-execution-context-1 
+2014-04-15 16:11:49,615 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2014-04-15 15:11:22,065 - [INFO] - from play in New I/O worker #1 
+2014-04-15 16:11:50,472 - [INFO] - from play in New I/O worker #1 
 Starting application default Akka system.
 
-2014-04-15 15:11:35,204 - [INFO] - from play in pool-4-thread-4 
+2014-04-15 16:12:01,225 - [INFO] - from play in pool-4-thread-2 
 Shutdown application default Akka system.
 

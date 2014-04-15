@@ -4,7 +4,7 @@
 		module="lightspeedapp-akka_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140415141936"
+		publication="20140415154059"
 	>
 		<description>
 		LightSpeedApp-Akka
@@ -37,6 +37,7 @@
 		<dependency org="com.typesafe.akka" name="akka-cluster_2.10" rev="2.2.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-kernel_2.10" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="org.fusesource" name="sigar" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="com.amazonaws" name="aws-java-sdk" rev="1.4.2.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.10" rev="2.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="anorm_2.10" rev="2.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.10" rev="2.2.2" conf="compile->default(compile)"/>

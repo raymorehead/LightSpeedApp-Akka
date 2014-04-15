@@ -7,3 +7,10 @@ idea
 clear
 compile
 exit
+compile
+run
+compile
+run
+clear
+exi
+exit
